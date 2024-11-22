@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.course {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.course input {
+    margin-right: 10px;
+    padding: 8px;
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: #c0392b;
+}
+
+#add-course-btn, #calculate-btn {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#add-course-btn:hover, #calculate-btn:hover {
+    background: #2980b9;
+}
+
+#result {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cgpa {
+    font-size: 1.5em;
+    color: #27ae60;
+}
